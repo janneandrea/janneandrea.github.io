@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
-    --primary-color: #d8dde4;
-    --secondary-color: #9cd3d6;
-    --accent1-color: #98e2c6;
-    --accent2-color: white;-
+    --primary-color: #E4FFE1;
+    --secondary-color:#F4FDD9 ;
+    --accent1-color: #6A8D73;
+    --accent2-color: #F0A868;
     -heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif
 }
@@ -16,7 +16,8 @@ html{
 body{
      max-width: 900px;
      margin: 0 auto;
-     background-color: white;
+     background-color: var(--secondary-color)
+     ;
      padding: 1em
     }
         
@@ -45,12 +46,12 @@ header{
 header >h1{
                     
    
-    color:
+    color:var(--accent2-color)
                  }
                  
      p{
     font-family: var(--paragraph-font);
-    color:;
+    color:black;
     padding: 1em
                 }
                     
@@ -108,7 +109,7 @@ nav a{
                                 
  nav a:link, 
 nav a:visited
-{color: 
+{color:var(--accent2-color)
  }
                                 
 nav a:hover{
