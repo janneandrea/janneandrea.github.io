@@ -89,7 +89,7 @@ header >h1{
                                 }
                                 
 nav{
-     background-color:;
+     background-color;white;
      line-height: 3em;
      text-align: center;
      font-size: 1.2em
@@ -113,5 +113,5 @@ nav a:visited
  }
                                 
 nav a:hover{
-    color:;background-color:
+    color:var(--accent2-color);background-color:
                                  }
