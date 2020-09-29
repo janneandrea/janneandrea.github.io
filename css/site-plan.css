@@ -16,8 +16,7 @@ html{
 body{
      max-width: 900px;
      margin: 0 auto;
-     background-color: var(--secondary-color)
-     ;
+     background-color: var(--secondary-color);
      padding: 1em
     }
         
