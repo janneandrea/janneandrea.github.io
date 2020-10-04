@@ -16,7 +16,7 @@ html{
 body{
      max-width: 900px;
      margin: 0 auto;
-     background-color: var(--secondary-color);
+     background-color: var(--accent1-color);
      padding: 1em
     }
         
@@ -76,7 +76,7 @@ header >h1{
                                 
                                 
  .secondary{
-    background-color: var(--secondary-color)
+    background-color: var(--accent1-color)
                                 }
                                 
 .accent1{
