@@ -26,10 +26,10 @@
   }
   
   section {
-    border: 1px solid green;
+    border: 1px solid rgb(83, 153, 83);
     margin: 10px;
     bacground-color: #333;
-    color: #fff;
+    color: rgb(61, 99, 221);
   }
   
   aside {
