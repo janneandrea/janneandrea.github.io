@@ -1,6 +1,6 @@
-body{background-color: rgb(98, 98, 165);}
+body{background-color:rgba(82, 121, 197, 0.067);}
 
-Header {background-color:rgb(238, 155, 124)
+Header {background-color:rgba(82, 238, 191, 0.333);
 }
 
 main{
@@ -10,10 +10,10 @@ main{
 
     h2 {color:white}
 
-    p{background-color:
-    color:}
+    p{background-color:red
+    color: black}
 
-footer {background-color:
+footer {background-color:yellow
         max-width: 960px;
         margin: 0 auto;
       }
