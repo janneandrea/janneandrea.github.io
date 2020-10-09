@@ -1,6 +1,6 @@
-body{background-color:rgba(82, 121, 197, 0.067);}
+body{background-color:#1234;}
 
-Header {background-color:rgba(82, 238, 191, 0.333);
+Header {background-color:#8742;
 }
 
 main{
@@ -13,7 +13,7 @@ main{
     p{background-color:pink
     color: black}
 
-footer {background-color:yellow
+footer {background-color:#8816
         max-width: 960px;
         margin: 0 auto;
       }
