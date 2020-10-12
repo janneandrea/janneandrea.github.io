@@ -1,11 +1,41 @@
-body{background-color:#1234;}
+body{background-color:#1234;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;}
 
 Header {background-color:#8149;
+    padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 
 main{
     max-width: 960px
     margin: 0 auto;
+}
+
+header img {
+	width: 125px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 2rem;
+	color: navy;
+	margin: 0;
+}
+
+.motto {
+	font-style: italic;
+	color: forestgreen;
+	font-size: 1rem;
+	letter-spacing: 1.5pt;
 }
 
     h2 {color: black}
