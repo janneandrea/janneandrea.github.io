@@ -10,6 +10,13 @@ Header {background-color:#8149;
 	justify-content:center;
 }
 
+nav{
+	line-height: 3em;
+	text-align: center;
+	front-size:1.2 em;
+
+}
+
 main{
     max-width: 960px
     margin: 0 auto;
@@ -29,13 +36,6 @@ header img {
 	font-size: 2rem;
 	color: navy;
 	margin: 0;
-}
-
-.motto {
-	font-style: italic;
-	color: forestgreen;
-	font-size: 1rem;
-	letter-spacing: 1.5pt;
 }
 
     h2 {color: black}
