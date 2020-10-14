@@ -1,3 +1,16 @@
+<style>
+.flex-container{
+display:flex;
+background-color:
+}
+
+<div class="flex-container">
+  <div>Home</div>
+  <div>Amenities</div>
+  <div>Temple Spotlight</div>  
+  <div> Reservations </div>
+</div>
+
 body{background-color:#1234;
 	padding: 0;
 	margin: 8 px;
@@ -14,20 +27,29 @@ Header {background-color:#8149;
 }
 
 header img {
-	width: 125px;
+	width: 100px;
 	height: auto;
 }
 
 nav{
-	background-color:(--accent2-color);
+	background-color:(rgb(39, 139, 60));
 	line-height: 3em;
 	text-align: center;
 	front-size:1.2 em;
-	display:block;
+	display: block;
+}
+
+.nav{
+	list-style-type:none;
+	display: flex;
+}
+
+.nav li{
+	 flex: 1 1 auto;
 }
 	
 main{
-    max-width: 960px
+    max-width: 400px
     margin: 0 auto;
 }
 
@@ -39,7 +61,8 @@ h1 {
     padding-right: .3em;
 }
 
-footer {background-color:#8816
+Header footer {background-color:#8816
         max-width: 960px;
-        margin: 0 auto;
+		margin: 0 auto;
+		display:flex;
       }
