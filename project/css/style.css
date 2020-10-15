@@ -1,8 +1,8 @@
 :root {
     --primary-color: #64bd5a;
     --secondary-color:#32e2ad ;
-    --accent1-color: #6A8D73;
-    --accent2-color: #F0A868;
+    --accent1-color: #e7d885;
+    --accent2-color: #aab7f3;
     --font-family: Lato, Helvetica, sans-serif
 }
 
@@ -15,7 +15,7 @@ nav li {
 }
 
 body {
-	background-color: white;
+	background-color:var(--accent2-color);
 	max-width: 900px;
     margin: 0 auto;
     padding: 0;
