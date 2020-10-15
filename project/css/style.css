@@ -1,11 +1,13 @@
 :root {
-    --primary-color: #64bd5a;
+    --primary-color: #aab7f3;
     --secondary-color:#32e2ad ;
     --accent1-color: #e7d885;
-    --accent2-color: #aab7f3;
-    --font-family: Lato, Helvetica, sans-serif
+    --accent2-color:white;
+    --font-family: Lato, Helvetica, sans-serif;
 }
-
+html {
+    background-color: var(--primary-color);
+}
 nav li {
     font-family: "Lato", "Helvetica", sans-serif;
     padding-left: 100px;
@@ -49,6 +51,7 @@ header img {
 
 section{
     background-color: white;}
+h3 {background-color: white;}
 
 header, main, footer {
     max-width: 960px;
