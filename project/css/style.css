@@ -49,10 +49,6 @@ header img {
 	height: auto;
 }
 
-section{
-    background-color: white;}
-h3 {background-color: white;}
-
 header, main, footer {
     max-width: 960px;
     margin: 0 auto;
