@@ -64,7 +64,8 @@ main {
 footer p {
 		color: white;
 		display:  flex;
-		font-size: 2 em;
+        font-size: 2 em;
+        padding: 15px
     }
 footer img {
     width: 35px;
