@@ -65,10 +65,17 @@ footer p {
 		color: white;
 		display:  flex;
         font-size: 2 em;
-        padding: 15px
+        padding: 5px
     }
 footer img {
     width: 35px;
     height: 35px;
     padding: 15px
 }
+.icon{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+    
