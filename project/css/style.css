@@ -1,6 +1,6 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap" rel="stylesheet">');
 :root {
-    --primary-color: #aab7f3;
+    --primary-color:#8BB174;
     --secondary-color:#32e2ad ;
     --accent1-color: #e7d885;
     --accent2-color:white;
@@ -30,12 +30,12 @@ img {
 h1 {
 	font-size: 2rem;
     text-shadow: 2px 2px whitesmoke;
-    color: #F59CA9;
+    color: #2A4849;
     padding-right: .3em;
 }
 
 header,footer{
-	background-color:#8149}
+	background-color:#B5CA8D;}
 
 Header {
     padding: 5px 0;
@@ -60,15 +60,11 @@ main {
 		margin-top: -16px;
 		margin-bottom: -16px;
 }
-
-
 footer p {
 		color: white;
 		display:  flex;
 		font-size: 1rem;
     }
-    
-
 footer img {
     width: 35px;
     height: 35px;}
