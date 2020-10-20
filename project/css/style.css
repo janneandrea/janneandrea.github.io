@@ -70,7 +70,7 @@ h2{
 }
 
 .section1 img{
-   padding: 5px 5px 5px 550px;
+   padding:5px 5px 5px 545px;
 
 }
 
@@ -81,7 +81,8 @@ h3{text-align: right}
 }
 
 .section2 img{
-    padding: 5px 4px 5px 500px;
+    padding-left: 5px;
+    
     
 }
 
