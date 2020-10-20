@@ -59,20 +59,32 @@ header, main, footer {
 main {
 		background-color: white;
 		margin-top: -16px;
-		margin-bottom: -16px;
+        margin-bottom: -16px;
 }
-footer p {
+
+.paragraph1{
+    padding: 5px 15px 5px 480px;
+    text-align: justify;
+}
+
+.paragraph2{
+    padding: 5px 480px 5px 5px;
+    text-align: justify;
+}
+
+
+
+.footer p {
 		color:black;
         display:  flex;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        box-sizing: border-box;
-        align-items: right;
+       
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
 
         
-       
-        
-       
         
     }
 footer img {
