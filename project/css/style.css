@@ -62,10 +62,13 @@ main {
 		margin-bottom: -16px;
 }
 footer p {
-		color: white;
+		color:black;
         display:  flex;
         margin-bottom: 30px;
         margin-top: 30px;
+        box-sizing: border-box;
+        align-items: right;
+
         
        
         
