@@ -63,7 +63,7 @@ main {
 }
 h2{
     text-align: left;
-    padding: 20px 70px 20px 70px;;
+    padding: 20px 70px 20px 80px;;
 }
 
 .paragraph1{
@@ -72,13 +72,13 @@ h2{
 }
 
 .section1 img{
-    Margin: -235px 10px 10px 510px;
+    Margin: -235px 75px 10px 5px;
     float:right;
 }
 
 h3{
     text-align: right;
-    padding: 20px 70px 20px 20px;
+    padding:200px 105px 20px 30px;
     margin: 0px;
     }
 .paragraph2{
@@ -87,7 +87,7 @@ h3{
 }
 
 .section2 img{
-    Margin: -230px 10px 10px 5px;
+    Margin: -230px 10px 10px 50px;
     padding: 30px 10px 10px 10px;
     
     
