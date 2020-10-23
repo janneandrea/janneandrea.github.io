@@ -188,3 +188,35 @@ body {
       padding: 10px;
   }
   
+  /* Activity 6 styles */
+
+  .red6 {
+    width: 600px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .green6 {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: green;
+    float: left;
+  }
+  
+  .gold6 {
+    width: 600px;
+    height: 400px;
+    background-color: gold;
+  }
+  
+  .blue6 {
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+  }
+  
+  .paragraph6 {
+      margin: 0px;
+      padding: 10px;
+  }
