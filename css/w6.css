@@ -198,7 +198,7 @@ body {
   }
 
   .red6 {
-      width: 500px;
+      width: 400px;
       height: 200px;
       background-color: red;
       z-index: -2;
@@ -218,7 +218,7 @@ body {
      
   .gold6 {
     background-color: gold;
-    height: 500px;
+    height: 400px;
     width: 200px;
     grid-column: 5/6;
     grid-row: 3/7;
@@ -226,7 +226,7 @@ body {
     
   .blue6 {
     background-color: blue;
-    height: 500px;
+    height: 400px;
     width: 400px;
     z-index: -1;
     grid-column: 2/6;
