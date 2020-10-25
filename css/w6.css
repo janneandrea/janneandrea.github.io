@@ -191,8 +191,13 @@ body {
   
   /* Activity 6 styles */
 
+  .layout6 {
+    position: absolute;
+  }
+
   .content6{
     display:grid;
+    position:relative;
     grid-template-columns: 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px ;
   }
@@ -219,14 +224,16 @@ body {
     background-color: gold;
     height: 100px;
     width: 300px;
-    grid-template-columns: 2/5;
-    grid-template-rows: 2/4;
+    z-index: -1;
+    grid-template-columns: 4/6;
+    grid-template-rows: 3/7;
       }
     
   .blue6 {
     background-color: blue;
     height: 500px;
     width: 400px;
+    z-index: -1;
     grid-template-columns: 2/7;
     grid-template-rows: 2/6;
 
