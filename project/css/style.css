@@ -102,9 +102,7 @@ h3{
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-    
 
-        
         
     }
 footer img {
@@ -112,6 +110,20 @@ footer img {
     height: 35px;
     padding: 15px
 }
+.map {
+    display:flex;
+    flex-direction: row;
+}
+.phone {
+    display:flex;
+    flex-direction: row;
+}
+
+.email {
+    display:flex;
+    flex-direction: row;
+}
+
 
 .social{
     float: right;
