@@ -4,7 +4,7 @@
     --secondary-color:#2A4849;
     --accent1-color: #B5CA8D;
     --accent2-color:white;
-    --font-family: Lato, Helvetica, sans-serif;
+    --font-family: "Lato", Helvetica, sans-serif;
 }
 html {
     background-color: var(--primary-color);
@@ -96,7 +96,7 @@ h3{
 .footer p {
 	color:black;
     display:  flex;  
-    }
+     }
 
 .icons{
     margin:2px;
