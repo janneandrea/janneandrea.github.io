@@ -89,22 +89,19 @@ h3{
 .section2 img{
     Margin: -230px 10px 10px 50px;
     padding: 30px 10px 10px 10px;
-    
-    
+ 
 }
 
 
 .footer p {
-		color:black;
-        display:  flex;
-       
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-
-        
+	color:black;
+    display:  flex;  
     }
+
+.icons{
+    margin:2px;
+}
+
 footer img {
     width: 35px;
     height: 35px;
