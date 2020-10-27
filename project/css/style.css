@@ -110,21 +110,22 @@ footer img {
 .map {
     display:flex;
     flex-direction: row;
+    margin:2px 2px -30px 2px;
 }
 .phone {
     display:flex;
     flex-direction: row;
+    margin:2px 2px 2px 2px;
 }
 
 .email {
     display:flex;
     flex-direction: row;
+    margin:-25px 2px -30px 2px;
 }
-
-
 .social{
     float: right;
     width: 30%;
-    margin-top: -220px;
+    margin-top: -140px;
     text-align: right;}
 
