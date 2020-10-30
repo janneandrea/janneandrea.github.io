@@ -32,10 +32,12 @@ main{
 .banner-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
     }
 .banner-box img {
     grid-column: 1 / -1;
     grid-row:1;
+  
 }    
 .action {
     grid-column: 1/-1;
@@ -65,7 +67,7 @@ h1 {
 }
 
 header,footer{
-    max-width: 960px;
+    max-width: 900px;
 	background-color:var(--accent1-color);}
 
 Header {
