@@ -97,15 +97,12 @@ header, main, footer {
 
 .sectionimage1{
     grid-column: 2/3;
-    justify-self: center;
-  
+    justify-self: center; 
 }
 
 main img{
     border: 10px solid #B5CA8D;
     box-shadow: 5px 5px 5px #999;
-
-
 }
 
 .p2{
