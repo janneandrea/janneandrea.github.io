@@ -91,13 +91,13 @@ header, main, footer {
 
 .p1{
     text-align: center;
-    grid-column: 1/2;
+    grid-column: 1;
     padding:20px;
    
 }
 
 .sectionimage1{
-    grid-column: 2/3;
+    grid-column: 2;
     justify-self: center; 
 }
 
@@ -107,11 +107,11 @@ main sectionimage1{
 }
 
 .p2{
-    grid-column: 2/3;
+    grid-column: 2;
     text-align: center;
 }
 .sectionimage2{
-    grid-column: 1/2;
+    grid-column: 1;
     grid-row: 3;
     justify-self: center;
   
