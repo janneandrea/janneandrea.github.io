@@ -59,6 +59,7 @@ body {
 	max-width: 960px;
     font-size: 16px; 
     margin: 0 auto;  
+    text-decoration: none;
 }
 h1 {
 	font-size: 2rem;
@@ -131,7 +132,9 @@ main img{
     
     }
 
-
+.div social{
+    text-decoration: none;
+}
 .icons{
     margin:2px;
 }
@@ -141,7 +144,9 @@ footer img {
     height: 35px;
     padding: 15px
 }
-
+social media div{
+    text-decoration: none;
+}
 .map {
     display:flex;
     flex-direction: row;
