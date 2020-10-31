@@ -101,7 +101,7 @@ header, main, footer {
     justify-self: center; 
 }
 
-main img{
+main sectionimage1{
     border: 10px solid #B5CA8D;
     box-shadow: 5px 5px 5px #999;
 }
