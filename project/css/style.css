@@ -1,8 +1,6 @@
-@import url('<link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap" rel="stylesheet">');
-
-@media screen and (max-width: 550px) {
-    .______ {
-      display: block;}}
+@import url(https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap)
+@media screen and (max-width: 550px) 
+{ main {display: block;}}
 
 
 :root {
@@ -72,7 +70,7 @@ header,footer{
     max-width: 900px;
 	background-color:var(--accent1-color);}
 
-Header {
+header {
     padding: 5px 0;
     display: flex;
     align-items:center;
