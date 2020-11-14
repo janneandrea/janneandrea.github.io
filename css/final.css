@@ -3,12 +3,12 @@
 :root {
     --primary-color: #FFAF87;
     --secondary-color:#FF8E72 ;
-    --accent1-color: #ED6A5E;
+    --accent1-color: #88B1E7;
     --accent2-color: #377771;
     -heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif
 }
-ED6A5E
+
     
     
 html{
@@ -17,8 +17,8 @@ html{
 main{
      max-width: 900px;
      margin: 0 auto;
-     background-color: white;
-     padding: 1em
+     background-color:white;
+     padding: 1em;
     }
         
         

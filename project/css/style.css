@@ -4,7 +4,7 @@
 
 
 :root {
-    --primary-color:#8BB174;
+    --primary-color:#88B1E7;
     --secondary-color:#2A4849;
     --accent1-color: #B5CA8D;
     --accent2-color:white;
@@ -22,7 +22,7 @@ nav li {
 
 main{
     max-width: 960px;
-    background-color: white;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
