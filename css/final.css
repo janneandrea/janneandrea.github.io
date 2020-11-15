@@ -57,11 +57,11 @@ header >h1{
     width: 100%;
     min-width: 350px;
     margin: auto;
-    text-align: center
+    text-align: center;
                     }
                         
 .colors th{
-    background-color: #999
+    background-color: #999;
                         }
                         
 .colors td
