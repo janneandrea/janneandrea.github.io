@@ -172,12 +172,31 @@ footer img {
     background-color:#EFEFD0;
 }
 .amenities{
+    grid-template-columns: 1fr 1fr;
     display: grid;
+    grid-gap:10px;
     max-width:400 px;
     align-items: center;
     justify-content: center;
     margin:auto;
 }
+
+.amenities-section-2{
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.amenities-action{
+    grid-column: 1 / -2;
+}
+
+
+
+
+
 
 .temple-spotlight-section-1{
     display: grid;
