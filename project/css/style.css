@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap)
-@media screen and (max-width: 550px) 
+@media screen and (max-width: 550px) {main}
 
 :root {
     --primary-color:#d3eca3;
-    --secondary-color:#2A4849;
+    --secondary-color:#62C370;
     --accent1-color: #B5CA8D;
     --accent2-color:white;
     --font-family: "Lato", Helvetica, sans-serif;
