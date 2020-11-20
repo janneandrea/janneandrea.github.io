@@ -193,16 +193,6 @@ footer img {
     grid-column: 1 / -2;
 }
 
-.temple-spotlight-section-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    padding:50px;
-}
-.container{
-    background-color: white;
-    overflow: hidden;
-}
 
 .container figure:hover img{
     filter:grayscale(100%);
@@ -254,6 +244,11 @@ figure:hover figcaption{
 }
 
 
+.temple-spotlight-section-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+
+}
 
 
 
@@ -262,7 +257,6 @@ figure:hover figcaption{
 
 
 
-}
 
 .class-for-reservation{
 
