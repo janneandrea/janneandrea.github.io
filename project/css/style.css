@@ -142,7 +142,7 @@ footer img {
     height: 35px;
     padding: 15px
 }
-social media div{
+.social media div{
     text-decoration: none;
 }
 .map {
@@ -183,30 +183,45 @@ social media div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+    padding:50px;
 }
-} 
-
 .schedule{
-display: grid;
-grid-row: 1;
-align-items: center;
-justify-content: center;
-margin:auto;
-
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
 }
+.action{
+max-width: 350px;
+grid-column: 1/-1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    text-align: center;
+}
+
 .services{
 display: grid;
 grid-row: 2;
 align-items: center;
 justify-content: center;
 margin:auto;
+}
 
+.services_image{
+background-color: rgba(240, 240, 240, 0.8);
 }
 .history{
 display: grid;
 align-items: center;
 justify-content: center;
 margin:auto;
+}
+.features{
+display: grid;
+align-items: center;
+justify-content: center;
+margin:auto;   
 }
 
 .schedule-content{
@@ -222,6 +237,10 @@ background-color:#FAF29E;
 max-width: 350px;
 }
 
+.features-content{
+background-color:#FAF29E;
+max-width: 350px; 
+}
 
 
     
