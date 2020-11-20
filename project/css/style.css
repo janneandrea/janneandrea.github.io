@@ -202,30 +202,20 @@ footer img {
 figcaption{
      color:black;
      font-size: 20px;
-     top: 280px;
      text-align: center;
      transition:1s;    
-}
-
-
-figure:hover figcaption{
-    left:45px;
- 
-
 }
 
 .schedule{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin:auto;
 }
 
 .history{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin:auto;
     }
 
 .services{
@@ -233,21 +223,19 @@ figure:hover figcaption{
     grid-row: 2;
     align-items: center;
     justify-content: center;
-    margin:auto;
+
 }
 
 .features{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin:auto;   
 }
 
 
 .temple-spotlight-section-1{
     display:grid;
     grid-template-columns: 1fr 1fr; 
-
 }
 
 
