@@ -193,11 +193,6 @@ footer img {
     grid-column: 1 / -2;
 }
 
-
-
-
-
-
 .temple-spotlight-section-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -206,8 +201,6 @@ footer img {
 }
 .container{
     background-color: white;
-    width:350px;
-    height:322px;
     overflow: hidden;
 }
 
@@ -224,11 +217,6 @@ figcaption{
      transition:1s;    
 }
 
-span{
-    text-align: center;
-    font-size: 1.625em;
-    margin-top: -0.8125em;
-}
 
 figure:hover figcaption{
     left:45px;
