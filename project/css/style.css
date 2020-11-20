@@ -235,18 +235,7 @@ figcaption{
     grid-template-columns: 1fr 1fr; 
 }
 
-
-
-    
-
-
-
-
-
-.class-for-reservation{
-
-
-
-
+.form-reservations{
+    align-items:center;
+    justify-content:center;
 }
-
