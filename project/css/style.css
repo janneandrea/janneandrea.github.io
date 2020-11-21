@@ -245,3 +245,16 @@ figcaption{
 .form-reservations h2{
     text-align: center;
 }
+.kids{
+    margin: 12px;
+    padding: 4px 6px;
+}
+.arrival-date{
+    margin: 16px;
+    padding: 4px 6px;
+}
+
+.email-form{
+    margin: 20px;
+    padding: 4px 6px;
+}
