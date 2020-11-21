@@ -169,26 +169,15 @@ footer img {
     padding: 1rem;
     background-color:#EFEFD0;
 }
-.amenities{
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    grid-gap:10px;
-    align-items: center;
-    justify-content: center;
-    margin:auto;
-}
 
-.amenities-section-2{
-    display:grid;
+.amenities-section-2 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:10px;
     align-items: center;
     justify-content: center; 
+    
 }
-.amenities-action{
-    grid-column: 1 / -2;
-}
-
 
 .container figure:hover img{
     filter:grayscale(100%);
@@ -245,16 +234,41 @@ figcaption{
 .form-reservations h2{
     text-align: center;
 }
+.name{
+    padding: 5px;
+}
+
+.email-form{
+    padding: 5px;
+}
+
+.phone{
+    padding: 5px;
+}
 .kids{
     margin: 12px;
     padding: 4px 6px;
+    padding: 5px;
 }
 .arrival-date{
     margin: 16px;
     padding: 4px 6px;
+    padding: 5px;
+}
+.departure-date{
+    departure-date
 }
 
 .email-form{
     margin: 20px;
     padding: 4px 6px;
+    padding: 5px;
+}
+
+.button{
+    margin-left: 3%;
+    padding-right: 50px; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
