@@ -190,7 +190,14 @@ footer img {
 .breakfast p{
     text-align: center;
 }
+.shutt{
+    justify-self: center;
+    grid-column: 1/3;
+}
+.shutt{
+    text-align: center;
 
+}
 
 
 .container figure:hover img{
