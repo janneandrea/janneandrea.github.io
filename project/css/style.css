@@ -172,11 +172,10 @@ footer img {
 
 .amenities-1 {
     display: grid;
-    grid-gap: 20px;
+    grid-gap:20px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center; 
-    
 }
 .breakfast{
     display: grid;
@@ -184,6 +183,15 @@ footer img {
     align-items: center;
     justify-content: center; 
 }
+.breakfast h2{
+    text-align: center;
+    color:#2A4849;
+}
+.breakfast p{
+    text-align: center;
+}
+
+
 
 .container figure:hover img{
     filter:grayscale(100%);
