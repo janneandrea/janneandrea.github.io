@@ -170,12 +170,19 @@ footer img {
     background-color:#EFEFD0;
 }
 
-.amenities-section-2 {
+.amenities-1 {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center; 
     
+}
+.breakfast{
+    display: grid;
+    padding:20px;
+    align-items: center;
+    justify-content: center; 
 }
 
 .container figure:hover img{
