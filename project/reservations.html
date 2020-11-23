@@ -33,51 +33,49 @@
             </ul>
         </nav>
     </header>
-
     <div class="form-reservations">
         <form class="form" action="/my-reservations-form" method="post">
             <h2>Contact us</h2>
-        
-                <ul>
-                    <li class="name">
-                        <label for="name">Full name:</label>
-                        <input type="text" placeholder="Username" id="name" name="user-name">
-                    </li>
-                    <li class="email-form">
-                        <label for="mail">E-mail:</label>
-                        <input type="email" placeholder="Email" id="mail" name="user_email">
-                    </li>
-                    <li class="phone">
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" placeholder="000-000-000" id="phone" name="user-phone">
-                    </li>
-                </ul>
-                <h2>Reservation Date</h2>
-                <ul>
-                    <li class="arrival-date">
-                        <label for="date"> Arrival: Date/Time</label>
-                        <input type="date" id="initial-date" name="arrival">
-                    </li>
-                    <li>
-                        <label for="date"> Departure: Date/Time</label>
-                        <input type="date" id="final-date" name="departure">
-                    </li>
-                </ul>
-                <h2>Rooms</h2>
-                <ul>
-                    <li class="rooms">
-                        <label for="adults">Number of Adults:</label>
-                        <input type="number" placeholder="1 Hab. 2 Guests " id="adults" name="adults_number">
-                    </li>
-                    <li class="kids">
-                        <label for="kids">Number of Kids:</label>
-                        <input type="number" placeholder="1 Hab. 2 Guests " id="kids" name="kids_number">
-                    </li>
-                    <li class="button">
-                        <button class="form-button" type="submit">Book now</button>
+            <ul>
+                <li class="name">
+                    <label for="name">Full name:</label>
+                    <input type="text" id="name" name="user_name" placeholder="Username">
+                </li>
 
-                    </li>
-                </ul>
+                <li class="email-form">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" placeholder="Email" id="mail" name="user_email">
+                </li>
+
+                <li class="phone">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" placeholder="000-000-000" id="phone" name="user_phone">
+                </li>
+                <h2>Reservation Date</h2>
+                <li class="arrival_date">
+                    <label for="initial_date"> Arrival:</label>
+                    <input type="date" id="initial_date" name="arrival">
+                </li>
+                <li>
+                    <label for="final_date"> Departure:</label>
+                    <input type="date" id="final_date" name="departure">
+                </li>
+
+                <h2>Rooms</h2>
+
+                <li class="rooms">
+                    <label for="adults">Number of Adults:</label>
+                    <input type="number" placeholder="1 Hab. 2 Guests " id="adults" name="adults_number">
+                </li>
+                <li class="kids">
+                    <label for="kids">Number of Kids:</label>
+                    <input type="number" placeholder="1 Hab. 2 Guests " id="kids" name="kids_number">
+                </li>
+                <li class="button">
+                    <button class="form-button" type="submit">Book now</button>
+
+                </li>
+            </ul>
         </form>
     </div>
     <footer>
@@ -119,7 +117,6 @@
             © 2020 Temple Inn & Suites | All rights Reserved |Privacy and Cookie Statement|Janne Lopez
         </p>
     </footer>
-
 </body>
 
 </html>
