@@ -253,6 +253,8 @@ figcaption{
 }
 .form-reservations h2{
     text-align: center;
+    background-color:var(--accent1-color);
+    max-width: 350px;
 }
 
 .button{
@@ -275,6 +277,7 @@ input{
     margin-bottom: 15px;
     width: 150px;
     padding: 4px 9px;
+    text-align:center;
 }
 
 label {
