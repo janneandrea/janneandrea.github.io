@@ -276,8 +276,8 @@ input{
     box-sizing: border-box;
     margin-bottom: 15px;}
 
-    label {
-        display: inline-block;
-        width: 150px;
-        text-align: right;
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
       }
