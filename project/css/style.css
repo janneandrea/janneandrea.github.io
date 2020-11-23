@@ -294,3 +294,6 @@ figcaption{
     border: 1px solid #B5CA8D;
     margin: 20px;
 }
+ul {
+    list-style-type: none;
+}
