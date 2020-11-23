@@ -264,17 +264,18 @@ figcaption{
 }
 .form{
     border: 1px solid #B5CA8D;
-    text-align: right;
     padding: 25px;
-    margin: 25px;
+    margin: 0 auto;
 }
 ul {
     list-style-type: none;
 }
 
 input{     
-    box-sizing: border-box;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+    width: 150px;
+    padding: 4px 9px;
+}
 
 label {
     display: inline-block;
