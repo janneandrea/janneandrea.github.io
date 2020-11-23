@@ -50,6 +50,9 @@ main{
     font-size: 1.2em;
 }
 
+.form-button{
+    background-color:#d3eca3;
+}
 body {
     background-color:var(--accent2-color);
 	max-width: 960px;
@@ -273,10 +276,8 @@ figcaption{
 
 .button{
     margin-left: 3%;
-    padding-right: 50px; 
-    justify-content: center;
-    align-content: center;
     text-align: center;
+    padding: 5px;
 }
 .form-re{
     border: 1px solid #B5CA8D;
