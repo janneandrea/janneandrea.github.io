@@ -230,7 +230,6 @@ figcaption{
     grid-row: 2;
     align-items: center;
     justify-content: center;
-
 }
 
 .features{
@@ -238,7 +237,6 @@ figcaption{
     align-items: center;
     justify-content: center;
 }
-
 
 .temple-spotlight-section-1{
     display:grid;
@@ -249,38 +247,12 @@ figcaption{
     display:grid;
     align-items:center;
     justify-content:center;
-    margin:auto;
-    padding:0;
+    margin: 20px;
+    box-sizing: border-box;
+
 }
 .form-reservations h2{
     text-align: center;
-}
-.name{
-    padding: 5px;
-}
-
-.email-form{
-    padding: 5px;
-}
-
-.phone{
-    padding: 5px;
-}
-.kids{
-    margin: 12px;
-    padding: 4px 6px;
-    padding: 5px;
-}
-.arrival-date{
-    margin: 16px;
-    padding: 4px 6px;
-    padding: 5px;
-}
-
-.email-form{
-    margin: 20px;
-    padding: 4px 6px;
-    padding: 5px;
 }
 
 .button{
@@ -292,8 +264,12 @@ figcaption{
 }
 .form{
     border: 1px solid #B5CA8D;
-    margin: 20px;
+    text-align: right;
 }
 ul {
     list-style-type: none;
 }
+
+input{     
+    box-sizing: border-box;
+    margin-bottom: 15px;}
