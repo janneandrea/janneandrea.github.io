@@ -290,3 +290,7 @@ figcaption{
     align-content: center;
     text-align: center;
 }
+.form{
+    border: 1px solid #B5CA8D;
+    margin: 20px;
+}
