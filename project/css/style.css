@@ -180,10 +180,12 @@ footer img {
     grid-gap:20px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin:0;
 }
 
-
+.amenities-1 img{
+    margin: auto;
+    display: block;
+}
 
 .amenities-1 img {
     border: 10px solid #B5CA8D;
