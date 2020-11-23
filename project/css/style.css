@@ -177,6 +177,11 @@ footer img {
     align-items: center;
     margin:0;
 }
+
+.amenities-1 img {
+    border: 10px solid #B5CA8D;
+    box-shadow: 5px 5px 5px #999;
+}
 .breakfast{
     display: grid;
     padding:20px;
