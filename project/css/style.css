@@ -97,6 +97,8 @@ header, main, footer {
 .sectionimage1{
     grid-column: 2;
     justify-self: center; 
+    border: 10px solid #B5CA8D;
+    box-shadow: 5px 5px 5px #999;
 }
 
 main sectionimage1{
@@ -112,6 +114,8 @@ main sectionimage1{
     grid-column: 1;
     grid-row: 3;
     justify-self: center;
+    border: 10px solid #B5CA8D;
+    box-shadow: 5px 5px 5px #999;
   
 }
 
@@ -171,6 +175,9 @@ footer img {
     padding: 1rem;
     background-color:#EFEFD0;
 }
+
+
+
 .free-amenenities h3{    
      text-align: center;
      color: #2A4849;
