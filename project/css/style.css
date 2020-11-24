@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap)
-@media screen and (max-width: 550px) {
-    main {
-    display : block;
-    }
-    }
+@media screen and (max-width: 550px) {main {display : block;} }
 :root {
     --primary-color:#d3eca3;
     --secondary-color:#2A4849;
