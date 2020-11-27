@@ -3,5 +3,31 @@ section {
     width: 50%;
     border: 1px solid;
   }
-  
-  
+  .poem{   
+    max-width: 60%;
+    }
+
+  .block1{
+    margin-right: auto;
+  }
+
+
+  .block1_2p{
+    margin: 0 auto;
+  }
+  .block2{
+    margin: 0 auto;
+
+    
+  }
+
+  .block3{
+    margin-left: auto;
+    
+  }
+
+  .block4{
+    margin: 0 auto;
+
+    
+  }
