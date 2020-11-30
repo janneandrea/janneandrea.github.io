@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+  }
+
+  .card {
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white;
+    text-align:justify;
+    margin:0 auto;
+    padding: 0;
+  }
+
+  .viewbutton{
+    list-style-type: none;
+    display: inline;
+
+  }
+
+  .editbutton{
+    list-style-type: none;
+    display: inline;
+  }
+
+.time{
+    text-align: right;
+}
+ 
