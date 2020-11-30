@@ -9,21 +9,28 @@ img {
     background-color: white;
     text-align:justify;
     margin:0 auto;
-    padding: 0;
+    display: grid;
+    justify-content: center;
+    
   }
 
   .viewbutton{
     list-style-type: none;
     display: inline;
-
+    padding-left: 10px;
+    background-color: Transparent;
+    
   }
 
   .editbutton{
     list-style-type: none;
     display: inline;
+    padding-left: 10px;
+    background-color: Transparent;
+  
   }
 
 .time{
-    text-align: right;
+    float: right;
+    padding-right: 10px;
 }
- 
