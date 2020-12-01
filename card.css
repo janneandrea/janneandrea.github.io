@@ -1,5 +1,6 @@
 
 body{
+  
   font-family:sans-serif;
   display:grid;
   justify-content: center;
@@ -14,7 +15,6 @@ img {
 .card {
     width: 320px;
     box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 3px;
     background-color: white;
     margin:0 auto;
     display: grid;
@@ -22,27 +22,34 @@ img {
 
 p{
     margin:10px;
+    justify-content: justify;
   }
 
   .viewbutton{
-    padding: 5px;
     border-right: none;
+    padding: 5px;
     background-color: white;
-    border: 1px solid gray;
     color:gray;
+    border-color:gray;
+    outline:none;
   }
 
   .editbutton{
     padding: 5px;
-    float:left;
     background-color: white;
-    border: 1px solid gray;
     color:gray;
+    border-color:gray;
+    outline:none;
+  
   }
 
 
-.button:hover {
-  background-color: #a392ec;
+.viewbutton:hover{
+  background-color: #cdc5f1;
+}
+
+.editbutton:hover {
+  background-color: #cdc5f1;
 }
 
 footer{
