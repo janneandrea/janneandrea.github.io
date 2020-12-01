@@ -5,65 +5,54 @@ body{
   justify-content: center;
   align-items:center;
   height:100vh;
-
 }
 
 img {
     max-width: 100%;
   }
 
-  .card {
+.card {
     width: 320px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
     background-color: white;
-    text-align:justify;
     margin:0 auto;
     display: grid;
   }
 
+p{
+    margin:10px;
+  }
+
   .viewbutton{
-    list-style-type: none;
-    display: inline;
-    padding-left: 10px;
-    background-color:transparent;
-    display:inline-block;
+    padding: 5px;
+    border-right: none;
+    background-color: white;
+    border: 1px solid gray;
+    color:gray;
   }
 
   .editbutton{
-    list-style-type: none;
-    display: inline;
+    padding: 5px;
+    float:left;
     background-color: white;
-    display:inline-block;
+    border: 1px solid gray;
+    color:gray;
   }
 
 
-.time{
-    float: right;
-}
-
-p{
-  margin:10px;
-  
+.button:hover {
+  background-color: #a392ec;
 }
 
 footer{
   margin:10px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns:70px 70px 1fr;
 }
 
-.viewbutton .editbutton{
-  background-color: white; 
-  border: 1px solid gray; 
-  color: gray; 
-  padding: 10px 24px; 
-  cursor: pointer;
-  float: left; 
-}
-
-.btn-group button:not(:last-child) {
-  border-right: none; 
-}
-
-.btn-group button:hover {
-  background-color: #a392ec;
+span{
+  text-align: right;
 }
