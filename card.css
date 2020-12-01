@@ -1,3 +1,9 @@
+
+body{
+  font-family:sans-serif;
+
+}
+
 img {
     max-width: 100%;
   }
@@ -10,27 +16,58 @@ img {
     text-align:justify;
     margin:0 auto;
     display: grid;
-    justify-content: center;
-    
   }
 
   .viewbutton{
     list-style-type: none;
     display: inline;
     padding-left: 10px;
-    background-color: Transparent;
-    
+    background-color:transparent;
+    display:inline-block;
   }
 
   .editbutton{
     list-style-type: none;
     display: inline;
-    padding-left: 10px;
-    background-color: Transparent;
-  
+    background-color: white;
+    display:inline-block;
   }
+
 
 .time{
     float: right;
-    padding-right: 10px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+p{
+  margin:10px;
+  
+}
+
+footer{
+  margin:10px;
+}
+
+.btn-group button {
+  background-color: white; 
+  border: 1px solid gray; 
+  color: gray; 
+  padding: 10px 24px; 
+  cursor: pointer;
+  float: left; 
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group button:hover {
+  background-color: #a392ec;
 }
