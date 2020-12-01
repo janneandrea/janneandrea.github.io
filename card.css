@@ -26,21 +26,23 @@ p{
   }
 
   .viewbutton{
-    border-right: none;
-    padding: 5px;
     background-color: white;
-    color:gray;
-    border-color:gray;
-    outline:none;
+    color: grey;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    padding: 5px;
+    border-right: none;
   }
 
   .editbutton{
-    padding: 5px;
     background-color: white;
     color:gray;
-    border-color:gray;
-    outline:none;
-  
+    border-style: solid;
+    outline: none;
+    float: left;
+    border-width: 1px;
+    padding: 5px;
   }
 
 
