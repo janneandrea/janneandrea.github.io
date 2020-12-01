@@ -16,13 +16,13 @@ img {
     width: 320px;
     box-shadow: 1px 1px 4px 1px #888;
     background-color: white;
-    margin:0 auto;
+    text-align: justify;
     display: grid;
   }
 
 p{
     margin:10px;
-    justify-content: justify;
+    justify-content: center;
   }
 
   .viewbutton{
