@@ -1,6 +1,10 @@
 
 body{
   font-family:sans-serif;
+  display:grid;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
 
 }
 
@@ -36,8 +40,6 @@ img {
 
 .time{
     float: right;
-    padding-right: 15px;
-    display: inline-block;
 }
 
 p{
@@ -49,19 +51,13 @@ footer{
   margin:10px;
 }
 
-.btn-group button {
+.viewbutton .editbutton{
   background-color: white; 
   border: 1px solid gray; 
   color: gray; 
   padding: 10px 24px; 
   cursor: pointer;
   float: left; 
-}
-
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .btn-group button:not(:last-child) {
