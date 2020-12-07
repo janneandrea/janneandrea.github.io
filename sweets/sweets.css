@@ -1,22 +1,75 @@
 
+
+:root {
+    --primary-color:;
+    --secondary-color:;
+    --accent1-color: #704D33;
+    --accent2-color:#F3D9B1;
+    --font-family: "Lato", Helvetica, sans-serif;
+}
+html {
+    background-color: white;
+}
+
+
+/*home*/
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.heading{display: flex;}
+
+nav li {
+    padding-left: 100px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 2px;}
+
 body {
-    background-color: var(--accent2-color);
+    background-color: var(--accent-color);
     max-width: 960px;
     font-size: 16px;
     margin: 0 auto;
     text-decoration: none;
 }
 
-header {
-    padding: 5px 0;
-    display: flex;
+h1{
+    color:var(--accent1-color);
+}
+nav ul{
     align-items: center;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--accent2-color);
 }
 
-ul{
-    list-style-type: none;
+  
+.action {
+    grid-column: 1/-1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    text-align: center;
 }
+
+.action button {
+    line-height: 2em;
+    width: 10em;
+    background-color: #F7C59F;
+    font-size: 1.2em;
+}
+
+
+
+/*contact us*/
+.form-button{
+    background-color:#d3eca3;
+
 .contact-us-form{
     display: grid;
     align-items: center;
