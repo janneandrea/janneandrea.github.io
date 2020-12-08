@@ -131,7 +131,8 @@ footer{
     border: 1px solid #B5CA8D;
     padding: 25px;
 }
-form{
+
+.form{
     text-align: center;
     margin-top: 10%;
     box-sizing: border-box;
@@ -140,9 +141,8 @@ form{
     margin:0 auto;
 }
 
-.form-ul{
+ul{
     list-style-type: none;
-
 }
 
 label {
