@@ -48,8 +48,6 @@ nav ul{
     background-color:var(--accent2-color);
 }
 
-
-
 main{
     display:grid;
     grid-gap: 40px;
@@ -113,6 +111,15 @@ footer{
     grid-row: 3/4;
 }
 
+.image1 {
+    justify-self: center;
+  
+}
+.p1{
+    text-align:center; 
+    margin: auto;
+}
+
 /*contact us*/
 .form-button{
     background-color:#d3eca3;
@@ -147,4 +154,24 @@ input{
     
 textarea{
     height: 100px;
+}
+
+/*recipes*/
+
+.recipes{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+
+}
+
+.sweet1{
+    display: grid;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sweet1 p{
+    text-align: center;
 }
