@@ -11,6 +11,13 @@ html {
     background-color: #c29979;
 }
 
+body {
+    background-color:white;
+	max-width: 960px;
+    font-size: 16px; 
+    margin: 0 auto;  
+    text-decoration: none;
+}
 
 /*home*/
 
@@ -121,30 +128,10 @@ footer{
 }
 
 /*contact us*/
-.form-button{
-    background-color:#d3eca3;
-
-.contact-us-form{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #B5CA8D;
-    padding: 25px;
-}
-
-.form{
-    text-align: center;
-    margin-top: 10%;
-    box-sizing: border-box;
-    display: table;
-    clear: both;
-    margin:0 auto;
-}
 
 ul{
-    list-style-type: none;
+    list-style-type:none;
 }
-
 label {
     display: inline-block;
     width: 150px;
@@ -159,7 +146,13 @@ input{
     
 textarea{
     height: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 9px;
+    margin-bottom: 15px;
 }
+
+
 
 /*recipes*/
 
@@ -179,4 +172,45 @@ textarea{
 
 .sweet1 p{
     text-align: center;
+}
+
+
+/* locations*/
+
+.container figure:hover img{
+    filter:grayscale(100%);
+    transform:scale(1.1) rotate(-1deg);
+}
+
+figcaption{
+     color:#2A4849;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     transition:1s;    
+}
+
+.schedule{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.history{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
+
+.services{
+    display: grid;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.features{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
