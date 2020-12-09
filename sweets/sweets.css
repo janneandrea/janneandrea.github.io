@@ -4,11 +4,11 @@
     --primary-color:#FEFCEB;
     --secondary-color:;
     --accent1-color: #704D33;
-    --accent2-color:#F3D9B1;
+    --accent2-color: #EECB95;
     --font-family: "Lato", Helvetica, sans-serif;
 }
 html {
-    background-color: #c29979;
+    background-color: #F3D9B1;
 }
 
 body {
@@ -39,7 +39,7 @@ nav li {
     margin: 2px;}
 
 body {
-    max-width: 960px;
+    max-width: 1060px;
     font-size: 16px;
     margin: 0 auto;
     text-decoration: none;
@@ -125,6 +125,15 @@ footer{
 .p1{
     text-align:center; 
     margin: auto;
+    animation: slideh linear 10s infinite;
+    display:flex;
+    position:relative;
+    top:0;
+    right:0;
+}
+
+ul a:hover {
+    background-color: var(--accent2-color);
 }
 
 /*contact us*/
@@ -132,11 +141,12 @@ footer{
 ul{
     list-style-type:none;
 }
+
 label {
     display: inline-block;
     width: 150px;
     text-align: right;
-      }
+}
 
 input{     
     margin-bottom: 15px;
@@ -152,7 +162,16 @@ textarea{
     margin-bottom: 15px;
 }
 
+.contact-us-form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+.button{
+    text-align: center;
+}
 
 /*recipes*/
 
@@ -170,12 +189,23 @@ textarea{
     justify-content: center;
 }
 
+.sweet1 img{
+    margin: 0 auto;
+
+}
+
+
 .sweet1 p{
     text-align: center;
 }
 
 
 /* locations*/
+
+.location{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .container figure:hover img{
     filter:grayscale(100%);
@@ -190,27 +220,3 @@ figcaption{
      transition:1s;    
 }
 
-.schedule{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-.history{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    }
-
-.services{
-    display: grid;
-    grid-row: 2;
-    align-items: center;
-    justify-content: center;
-}
-
-.features{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
