@@ -136,6 +136,12 @@ ul a:hover {
     background-color: var(--accent2-color);
 }
 
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
 /*contact us*/
 
 ul{
