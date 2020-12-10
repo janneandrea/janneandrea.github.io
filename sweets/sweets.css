@@ -47,6 +47,7 @@ body {
 
 h1{
     color:var(--accent1-color);
+    text-shadow: 2px 2px whitesmoke;
 }
 nav ul{
     align-items: center;
