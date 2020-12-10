@@ -150,6 +150,10 @@ ul a:hover {
     border-radius: 10px;
 }
 
+.navli{
+    text-decoration: none;
+}
+
 /*contact us*/
 
 ul{
