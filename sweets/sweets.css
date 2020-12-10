@@ -147,6 +147,7 @@ ul a:hover {
     border: 1px solid #B5CA8D;
     margin: 100px;
     box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 10px;
 }
 
 /*contact us*/
