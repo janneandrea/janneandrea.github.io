@@ -94,6 +94,8 @@ section h2{
     grid-column: 1;
     padding: 20px;
     text-align:center;
+    color: #696D7D;
+    font-weight: bold;
 }
 
 footer{
@@ -131,6 +133,8 @@ footer{
     position:relative;
     top:0;
     right:0;
+    color: #696D7D;
+    font-weight: bold;
 }
 
 ul a:hover {
