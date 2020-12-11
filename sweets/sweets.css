@@ -260,3 +260,7 @@ textarea{
 .container:hover  {
     opacity: 0.3;
   }
+
+.banner-chocolate{
+    opacity: 0.70;
+}
