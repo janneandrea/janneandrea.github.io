@@ -30,12 +30,8 @@ header {
     background-color:var(--accent2-color);
 }
 
-.heading{display: flex;}
-
 nav li {
-    padding-left: 100px;
     display: inline-block;
-    list-style-type: none;
     padding: 10px;
     margin: 2px;}
 
@@ -51,12 +47,7 @@ h1{
     color:var(--accent1-color);
     text-shadow: 2px 2px whitesmoke;
 }
-nav ul{
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-    background-color:var(--accent2-color);
-}
+
 
 main{
     display:grid;
@@ -250,9 +241,7 @@ textarea{
     grid-gap: 5%;
 }
  
-.location img{
-    opacity: 0.5;
-}
+
 
 .container{
     position: relative;
@@ -263,12 +252,15 @@ textarea{
     position: absolute;
     top: 50%;
     left: 50%;
-    
     transform: translate(-50%, -50%);
 }
 
 .h2-locations{
-    color: #325D5D;
+    color: black;
     text-shadow: 5px 2px whitesmoke;
 
 }
+
+.container:hover  {
+    opacity: 0.3;
+  }
