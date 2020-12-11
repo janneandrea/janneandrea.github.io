@@ -164,6 +164,8 @@ ul a:hover {
 
 .navli{
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .image1{
