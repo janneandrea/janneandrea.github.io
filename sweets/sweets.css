@@ -5,6 +5,7 @@
     --secondary-color:;
     --accent1-color: #704D33;
     --accent2-color: #8FC0A9;
+    --accent3-color:#696D7D;
     --font-family: "Lato", Helvetica, sans-serif;
 }
 html {
@@ -94,7 +95,7 @@ section h2{
     grid-column: 1;
     padding: 20px;
     text-align:center;
-    color: #696D7D;
+    color:var(--accent3-color);
     font-weight: bold;
 }
 
@@ -133,7 +134,7 @@ footer{
     position:relative;
     top:0;
     right:0;
-    color: #696D7D;
+    color: var(--accent3-color);
     font-weight: bold;
 }
 
