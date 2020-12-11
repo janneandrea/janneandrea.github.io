@@ -43,6 +43,7 @@ body {
     font-size: 16px;
     margin: 0 auto;
     text-decoration: none;
+    font-size: 25px;
 }
 
 h1{
@@ -152,6 +153,10 @@ ul a:hover {
 
 .navli{
     text-decoration: none;
+}
+
+.image1{
+    box-shadow: 5px 5px 5px #999;
 }
 
 
