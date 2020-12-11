@@ -77,6 +77,7 @@ main{
     grid-row: 7/8;
     text-align: center;
     padding:20px;
+    color: var(--accent3-color);
 }
 
 .section2-1{
@@ -100,6 +101,7 @@ section h2{
     font-weight: bold;
 }
 
+
 footer{
     background-color:var(--accent2-color);
 }
@@ -116,6 +118,7 @@ footer{
 .section2-1 ul{
     list-style-type:none;
     text-align: center;
+    color: var(--accent3-color);
 }
 
 .image1 p{
