@@ -259,3 +259,7 @@ figcaption{
      transition:1s;    
 }
 
+.location img{
+    opacity: 0.5;
+}
+
