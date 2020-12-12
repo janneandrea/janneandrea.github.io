@@ -179,7 +179,6 @@ label {
 
 input{     
     margin-bottom: 15px;
-    width: 150px;
     padding: 4px 9px;
     }
     
@@ -263,4 +262,9 @@ textarea{
 
 .banner-chocolate{
     opacity: 0.70;
+}
+
+.icons{
+    padding: 20px;
+
 }
