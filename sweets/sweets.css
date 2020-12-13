@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@200&display=swap)
+
 :root {
     --primary-color:#FEFCEB;
-    --secondary-color:;
     --accent1-color: #704D33;
-    --accent2-color: #8FC0A9;
+    --accent2-color: hsl(152, 28%, 66%);
     --accent3-color:#696D7D;
     --font-family: "Lato", Helvetica, sans-serif;
 }
@@ -199,6 +198,73 @@ textarea{
     text-align: center;
 }
 
+body{
+  
+    font-family:sans-serif;
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+  }
+  
+  img {
+      max-width: 100%;
+    }
+  
+  .card {
+      width: 320px;
+      box-shadow: 1px 1px 4px 1px #888;
+      background-color: white;
+      text-align: justify;
+      display: grid;
+    }
+  
+  p{
+      margin:15px;
+      justify-content: center;
+    }
+  
+    .viewbutton{
+      background-color: white;
+      color: grey;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      padding: 5px;
+      border-right: none;
+    }
+  
+    .editbutton{
+      background-color: white;
+      color:gray;
+      border-style: solid;
+      outline: none;
+      float: left;
+      border-width: 1px;
+      padding: 5px;
+    }
+  
+  
+  .viewbutton:hover{
+    background-color: #cdc5f1;
+  }
+  
+  .editbutton:hover {
+    background-color: #cdc5f1;
+  }
+  
+  .footer-card{
+    margin:10px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:70px 70px 1fr;
+  }
+  
+  span{
+    text-align: right;
+    color:gray;
+  }
 /*recipes*/
 
 .recipes-1{
