@@ -264,7 +264,7 @@ textarea{
   
   p{
       margin:15px;
-      justify-content: center;
+      text-align: center;
     }
   
     .viewbutton{
