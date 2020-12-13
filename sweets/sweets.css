@@ -198,7 +198,7 @@ textarea{
     text-align: center;
 }
 
-body{
+.body-card{
   
     font-family:sans-serif;
     display:grid;
@@ -265,31 +265,6 @@ body{
     text-align: right;
     color:gray;
   }
-/*recipes*/
-
-.recipes-1{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:20px;
-
-}
-
-.sweet1{
-    display: grid;
-    padding:20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.sweet1 img{
-    margin: 0 auto;
-
-}
-
-
-.sweet1 p{
-    text-align: center;
-}
 
 
 /* locations*/
@@ -333,3 +308,5 @@ body{
     padding: 20px;
 
 }
+
+text-decoration:none;
