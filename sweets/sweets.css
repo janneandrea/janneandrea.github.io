@@ -196,9 +196,6 @@ img.center{
     opacity: 0.3;
   }
 
-.banner-chocolate{
-    opacity: 0.70;
-}
 
 .icons{
     padding: 20px;
@@ -210,6 +207,8 @@ img.center{
 ul{
     list-style-type:none;
 }
+
+
 
 label {
     display: inline-block;
@@ -308,4 +307,10 @@ textarea{
     color:gray;
   }
 
+  .card-space{
+    margin: 40px;
+  }
 
+button{
+    background-color: white;
+}
