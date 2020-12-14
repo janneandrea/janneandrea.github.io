@@ -247,8 +247,9 @@ textarea{
     align-items:center;
   }
   
-  img {
-      max-width: 100%;
+  footer img {
+     
+      margin: 15px;
     }
   
   .card {
@@ -304,3 +305,5 @@ textarea{
 button{
     background-color: white;
 }
+
+
