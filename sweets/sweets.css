@@ -272,20 +272,10 @@ textarea{
       border-style: solid;
       border-color: grey;
       padding: 5px;
-      border-right: none;
+    
     }
   
-    .editbutton{
-      background-color: white;
-      color:gray;
-      border-style: solid;
-      outline: none;
-      float: left;
-      border-width: 1px;
-      padding: 5px;
-    }
-  
-  
+    
   .viewbutton:hover{
     background-color: #cdc5f1;
   }
