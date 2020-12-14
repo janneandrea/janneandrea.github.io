@@ -248,7 +248,6 @@ textarea{
   }
   
   footer img {
-     
       margin: 15px;
     }
   
@@ -307,3 +306,6 @@ button{
 }
 
 
+.icons{
+    text-decoration: none;
+}
